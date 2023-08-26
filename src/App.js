@@ -4,11 +4,13 @@ import Loading from './Components/Loading';
 
 function App() {
   return (
+    <div className="container">
     <div className="mainContainer">
       <div>
         <span className="textoStyle">COMING SOON</span>
       </div>
       <Loading />
+    </div>
     </div>
   );
 }

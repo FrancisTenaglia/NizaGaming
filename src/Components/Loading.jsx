@@ -10,7 +10,7 @@ const Loading = () => {
         }, 1800);
     })
     return (
-     <div>
+     <div className="">
         {showLoading ? (
             <div className={`loader`}></div>
         ) : <div className={`loaderr`}></div>}
