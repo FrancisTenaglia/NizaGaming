@@ -1,17 +1,19 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Loading from './Components/Loading';
-
+import Navbar from './Components/Navbar';
+import Slogan from './Components/Slogan';
+import Footer from './Components/Footer';
+import Promociones from './Components/homeImage';
 function App() {
   return (
-    <div className="container">
-    <div className="mainContainer">
-      <div>
-        <span className="textoStyle">COMING SOON</span>
-      </div>
-      <Loading />
-    </div>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Slogan />
+      <Promociones />
+        
+      <Footer />
+    </BrowserRouter>
+  
   );
 }
 
