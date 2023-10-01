@@ -11,7 +11,7 @@ function App() {
       <Slogan />
       <Promociones />
         
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   
   );
