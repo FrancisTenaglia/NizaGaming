@@ -3,7 +3,7 @@ const NavBar = () => {
         <div >
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
-                <a className="navbar-brand" href="#">NZ</a>
+                <a className="navbar-brand" href="/">NZ</a>
                     
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -12,49 +12,49 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Casino Online
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="#">Games</a></li>
-                                <li><a className="dropdown-item" href="#">Live Casino</a></li>
-                                <li><a className="dropdown-item" href="#">Sportsbook</a></li>
+                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
+                                <li><a className="dropdown-item" href="/">Games</a></li>
+                                <li><a className="dropdown-item" href="/">Live Casino</a></li>
+                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
                             </ul>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Retail
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="#">Games</a></li>
-                                <li><a className="dropdown-item" href="#">Live Casino</a></li>
-                                <li><a className="dropdown-item" href="#">Sportsbook</a></li>
+                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
+                                <li><a className="dropdown-item" href="/">Games</a></li>
+                                <li><a className="dropdown-item" href="/">Live Casino</a></li>
+                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
                             </ul>
                         </li>
                     
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Conexión Api
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="#">Games</a></li>
-                                <li><a className="dropdown-item" href="#">Esport</a></li>
-                                <li><a className="dropdown-item" href="#">Sportsbook</a></li>
+                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
+                                <li><a className="dropdown-item" href="/">Games</a></li>
+                                <li><a className="dropdown-item" href="/">Esport</a></li>
+                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
                             </ul>
                         </li>
                         
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="##" role="button" aria-expanded="false">
+                            <a className="nav-link" href="/" role="button" aria-expanded="false">
                             Eventos
                             </a>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="##" role="button" aria-expanded="false">
+                            <a className="nav-link" href="/" role="button" aria-expanded="false">
                             Noticias
                             </a>
                         </li>

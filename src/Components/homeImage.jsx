@@ -12,7 +12,7 @@ const Promociones = () => {
             </div>  
 
             <div className="container d-flex p-4 justify-content-end">
-                <a href="#" style={{textDecoration:"none"}}>Más información... </a>
+                <a href="/" style={{textDecoration:"none"}}>Más información... </a>
             </div>
         </div>        
     );
