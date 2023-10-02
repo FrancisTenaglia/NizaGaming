@@ -10,8 +10,6 @@ function App() {
       <Navbar />
       <Slogan />
       <Promociones />
-        
-      {/* <Footer /> */}
     </BrowserRouter>
   
   );
