@@ -5,7 +5,7 @@ import imgRuleta from "./images/img1.jpg"
 
 const Promociones = () => {
     return( 
-        <div className="row py-3 d-flex justify-content-center">
+        <div className="row py-3 d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px"}}>
 
             <div className="row py-3 d-flex p-4 justify-content-center " style={{backgroundColor:"white" }}>   
                 
