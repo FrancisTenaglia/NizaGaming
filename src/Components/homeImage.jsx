@@ -36,7 +36,7 @@ const Promociones = () => {
                 </div>
             </div>    
 
-            <div className="row py-3 d-flex p-4 justify-content-center " style={{backgroundColor:"white" }}>   
+            <div className="row py-3 d-flex p-4 justify-content-center " style={{backgroundColor:"#ededed" }}>   
                 <div className="container d-flex p-4 justify-content-center">
                     <p className="text-dark" style={{fontFamily:"unset", fontSize:"30px"}}>SLOTS</p>
                 </div>
