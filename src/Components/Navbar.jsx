@@ -1,6 +1,6 @@
 const NavBar = () => {
     return(
-        <div >
+        <div style={{marginLeft:"-15px", marginRight:"-15px"}}>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
                 <a className="navbar-brand" href="/">NZ</a>
