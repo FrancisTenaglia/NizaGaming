@@ -26,10 +26,6 @@ const Promociones = () => {
                     <div className="row col-md-6">
                         <img src={imagen} alt="fondo"/>
                     </div>  
-
-                    <div className="container d-flex p-4 justify-content-center">
-                        <a href="/" style={{textDecoration:"none"}}>Más información... </a>
-                    </div>
                 </div>    
             ))}
         </div>
