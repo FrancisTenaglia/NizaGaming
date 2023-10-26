@@ -1,15 +1,15 @@
 const NavBar = () => {
     return(
-        <div style={{marginLeft:"-15px", marginRight:"-15px"}}>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="mb-2" style={{marginLeft:"-15px", marginRight:"-15px"}}>
+            <nav className="navbar navbar-expand-lg bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="/">NZ</a>
+                <a className="navbar-brand text-light" href="/">NZ</a>
                     
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item dropdown">
                             <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
