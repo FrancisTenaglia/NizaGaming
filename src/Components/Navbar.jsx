@@ -11,51 +11,55 @@ const NavBar = () => {
 
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul className="navbar-nav">
-                        <li className="nav-item dropdown">
-                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Casino Online
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="/">Games</a></li>
-                                <li><a className="dropdown-item" href="/">Live Casino</a></li>
-                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
-                            </ul>
-                        </li>
-
-                        <li className="nav-item dropdown">
-                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Retail
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="/">Games</a></li>
-                                <li><a className="dropdown-item" href="/">Live Casino</a></li>
-                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
-                            </ul>
-                        </li>
                     
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Conexión Api
+                            <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Soluciónes
                             </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/">Solución Completa</a></li>
-                                <li><a className="dropdown-item" href="/">Games</a></li>
-                                <li><a className="dropdown-item" href="/">Esport</a></li>
-                                <li><a className="dropdown-item" href="/">Sportsbook</a></li>
+                            <ul className="dropdown-menu bg-dark">
+                                <li><a className="dropdown-item text-light" href="/">Solución Personalizada</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Casino Online Integral</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Retail</a></li>
                             </ul>
                         </li>
                         
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="/" role="button" aria-expanded="false">
-                            Eventos
+                            <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos y servicios
+                            </a>
+                            <ul className="dropdown-menu bg-dark">
+                                <li><a className="dropdown-item text-light" href="/">Casino en vivo</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Juegos</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Apuestas Deportivas</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Servidores escalables</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Sistemas de pago</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Asesoramiento</a></li>
+                                <li><a className="dropdown-item text-light" href="/">Marketing</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li className="nav-item dropdown">
+                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            Back Office
                             </a>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link" href="/" role="button" aria-expanded="false">
-                            Noticias
+                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            Noticias y eventos
+                            </a>
+                        </li>
+
+                        <li className="nav-item dropdown">
+                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            Contacto
+                            </a>
+                        </li>
+
+                        <li className="nav-item dropdown">
+                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            Soporte
                             </a>
                         </li>
 

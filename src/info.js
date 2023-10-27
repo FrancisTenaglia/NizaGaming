@@ -9,7 +9,7 @@ export const homes = [
     {
         colorFondo: "#ededed",
         textColor: "text-black",
-        titulo: "Slots",
+        titulo: "Juegos",
         texto: "Integración. Personalización. Seguridad.",
         imagen: "img3.jpg"
     },
@@ -21,8 +21,8 @@ export const homes = [
         imagen: "img1.jpg"
     },
     {
-        colorFondo: "#9909c1",
-        textColor: "text-white",
+        colorFondo: "#ededed",
+        textColor: "text-dark",
         titulo: "E'Sports",
         texto: "Integración. Personalización. Seguridad.",
         imagen: "imagess.jpg"

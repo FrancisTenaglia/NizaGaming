@@ -5,7 +5,6 @@ import Navbar from './Components/Navbar';
 import Promociones from './Components/homeImage';
 import Informacion from './pages/information';
 
-
 function App() {
   return (
     <div style={{paddingLeft:"15px", paddingRight:"15px"}}>
@@ -25,7 +24,6 @@ function App() {
           element={<Informacion />} 
         />
       </Routes>
-
     </BrowserRouter>
     </div>
   
