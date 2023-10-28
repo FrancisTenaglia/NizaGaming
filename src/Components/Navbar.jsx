@@ -1,6 +1,6 @@
 const NavBar = () => {
     return(
-        <div className="mb-2" style={{marginLeft:"-15px", marginRight:"-15px"}}>
+        <div className="mb-2" style={{marginLeft:"-15px", marginRight:"-15px", fontFamily:"Arimo"}}>
             <nav className="navbar navbar-expand-lg bg-dark">
             <div className="container">
                 <a className="navbar-brand text-light" href="/">NZ</a>

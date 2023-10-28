@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Promociones from './Components/homeImage';
 import Informacion from './pages/information';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           element={<Informacion />} 
         />
       </Routes>
+      <Footer />
     </BrowserRouter>
     </div>
   
