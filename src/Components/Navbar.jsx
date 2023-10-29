@@ -2,23 +2,23 @@ import imgMenu from "../images/menuu.png"
 
 const NavBar = () => {
     return(
-        <div className="mb-2 fixed-top " style={{marginLeft:"-10px", marginRight:"-10px", fontFamily:"Arimo"}}>
-            <nav className="navbar navbar-expand-lg bg-black">
+        <div className="mb-2 fixed-top " style={{ backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)",marginLeft:"-12px", marginRight:"-12px", fontFamily:"Arimo", }}>
+            <nav className="navbar navbar-expand-lg" style={{ height:"50px", backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)"}}>
             <div className="container">
-                <a className="navbar-brand text-white" style={{marginLeft:"10px"}} href="/">NZ</a>
+                <a className="navbar-brand text-white" style={{marginLeft:"10px", marginTop:"0px", fontWeight:"70px"}} href="/">NZ</a>
                     
-                <button className="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <img src={imgMenu} alt="#" style={{}} />
+                <button className="navbar-toggler" style={{border:"none"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img src={imgMenu} alt="#" style={{height:"28px", width:"28px"}} />
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul className="navbar-nav">
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" style={{background:"transparent"}}>
+                    <ul className="navbar-nav"  style={{paddingLeft:"10px",  backgroundColor:"black"}}>
                     
                         <li className="nav-item dropdown">
                             <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Soluciónes
                             </a>
-                            <ul className="dropdown-menu bg-dark">
+                            <ul className="dropdown-menu bg-black">
                                 <li><a className="dropdown-item text-light" href="/">Solución Personalizada</a></li>
                                 <li><a className="dropdown-item text-light" href="/">Casino Online Integral</a></li>
                                 <li><a className="dropdown-item text-light" href="/">Retail</a></li>
@@ -29,7 +29,7 @@ const NavBar = () => {
                             <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos y servicios
                             </a>
-                            <ul className="dropdown-menu bg-dark">
+                            <ul className="dropdown-menu bg-black">
                                 <li><a className="dropdown-item text-light" href="/">Casino en vivo</a></li>
                                 <li><a className="dropdown-item text-light" href="/">Juegos</a></li>
                                 <li><a className="dropdown-item text-light" href="/">Apuestas Deportivas</a></li>

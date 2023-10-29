@@ -9,7 +9,7 @@ export const homes = [
     {
         colorFondo: "#ededed",
         textColor: "text-black",
-        titulo: "Juegos",
+        titulo: "Slots RNG",
         texto: "Integración. Personalización. Seguridad.",
         imagen: "img3.jpg"
     },

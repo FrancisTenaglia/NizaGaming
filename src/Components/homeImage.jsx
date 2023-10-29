@@ -24,7 +24,7 @@ const Promociones = () => {
                 <div className="row mt-3 pt-2 d-flex justify-content-center"  style={{backgroundColor: colorFondo }}>   
                     <div className="container">
                         <div className="py-2 col text-center text-justify">
-                        <h1 className={textColor} style={{fontFamily:"Albert sans", fontSize:"35px"}}>{titulo}</h1>
+                        <h1 className={textColor} style={{fontFamily:"Albert sans", fontSize:"35px", }}>{titulo}</h1>
                             <p className={textColor} style={{fontFamily:"", fontSize:"18px", margin:"0"}}>{texto}</p>
                         </div>
                     </div>
