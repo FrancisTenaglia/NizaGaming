@@ -1,12 +1,14 @@
+import imgMenu from "../images/menuu.png"
+
 const NavBar = () => {
     return(
-        <div className="mb-2" style={{marginLeft:"-15px", marginRight:"-15px", fontFamily:"Arimo"}}>
-            <nav className="navbar navbar-expand-lg bg-dark">
+        <div className="mb-2 fixed-top " style={{marginLeft:"-10px", marginRight:"-10px", fontFamily:"Arimo"}}>
+            <nav className="navbar navbar-expand-lg bg-black">
             <div className="container">
-                <a className="navbar-brand text-light" href="/">NZ</a>
+                <a className="navbar-brand text-white" style={{marginLeft:"10px"}} href="/">NZ</a>
                     
-                <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <button className="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img src={imgMenu} alt="#" style={{}} />
                 </button>
 
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">

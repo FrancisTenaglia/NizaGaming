@@ -16,7 +16,7 @@ export const homes = [
     {
         colorFondo: "black",
         textColor: "text-white",
-        titulo: "Casino en Vivo",
+        titulo: "Mesas en Vivo",
         texto: "Integración. Personalización. Seguridad.",
         imagen: "img1.jpg"
     },
