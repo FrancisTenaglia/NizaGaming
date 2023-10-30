@@ -52,7 +52,7 @@ const Footer =() =>{
                                  <Link to={'/'} style={{textDecoration:"none", color:"black"}} className="px-1"> + </Link> 
                     </div>
                     <div className="container d-flex px-0 pt-4 border-top text-secondary" style={{justifyContent:"space-between", width:"100%"}}>
-                        <p style={{fontFamily:"Arimo"}} >Lorem ipsum, <a href="/">Republic of Perú</a> sit amet <a rel="noreferrer" target="_blank" href="https://compuempresa.com/info/techvantage-international-sac-20611324627">Techavantage</a>  consectetur adipisicing elit. derechos reservados</p> 
+                        <p style={{fontFamily:"Arimo"}} >Lorem ipsum, <a href="/">Republic of Perú</a> sit amet <a rel="noreferrer" target="_blank" href="https://compuempresa.com/info/techvantage-international-sac-20611324627">Techvantage</a>  consectetur adipisicing elit. derechos reservados</p> 
                     </div>
                 </div>
                 

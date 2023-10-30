@@ -1,24 +1,8 @@
-import fondo from "../images/img44.png"
 import { homes } from "../info"
-import { Link } from "react-router-dom";
 
 const Promociones = () => {
     return( 
         <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px"}}>
-            <div className="col py-2 text-center text-justify" style={{backgroundColor:"#f5f5f7"}}>
-                <h1 style={{fontFamily:"Albert sans", fontSize:"37px", marginTop:"65px"}}>
-                Solución Integral
-                </h1>
-                <p  style={{fontFamily:""}}>
-                Compacta. Veloz. Temática personalizada. <br />
-
-                <Link to={'/informacion'} style={{textDecoration:"none"}}><p style={{color:"#1c66ac"}}>Acceder a informacion »  </p> </Link>
-                </p>
-
-                <img style={{transform:"scale(0.7)"}} src={fondo} alt="fondo"/>
-               
-  
-            </div>
             {homes.map(({colorFondo, textColor, titulo, texto, imagen } ) => (
 
                 <div className="row mt-3 pt-2 d-flex justify-content-center"  style={{backgroundColor: colorFondo }}>   

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Promociones from './Components/homeImage';
 import Informacion from './pages/information';
 import Footer from './Components/Footer';
+import Principal from './Components/Principal';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div style={{paddingLeft:"15px", paddingRight:"15px"}}>
     <BrowserRouter>
       <Navbar />
+      <Principal />
       <Routes>
         <Route
           path={"/"} 
