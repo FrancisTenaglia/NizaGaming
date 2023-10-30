@@ -1,11 +1,12 @@
 import imgMenu from "../images/menuu.png"
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return(
         <div className="mb-2 fixed-top " style={{ backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)",marginLeft:"-12px", marginRight:"-12px", fontFamily:"Arimo", }}>
             <nav className="navbar navbar-expand-lg" style={{ height:"50px", backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)"}}>
             <div className="container">
-                <a className="navbar-brand text-white" style={{marginLeft:"10px", marginTop:"0px", fontWeight:"70px"}} href="/">NZ</a>
+                <Link className="navbar-brand text-white" style={{marginLeft:"10px", marginTop:"0px", fontWeight:"70px"}} to={'/'}>NZ</Link>
                     
                 <button className="navbar-toggler" style={{border:"none"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <img src={imgMenu} alt="#" style={{height:"28px", width:"28px"}} />
@@ -15,54 +16,54 @@ const NavBar = () => {
                     <ul className="navbar-nav"  style={{paddingLeft:"10px",  backgroundColor:"black"}}>
                     
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Soluciónes
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu bg-black">
-                                <li><a className="dropdown-item text-light" href="/">Solución Integral</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Solución Personalizada</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Retail</a></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Solución Integral</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Solución Personalizada</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Retail</Link></li>
                             </ul>
                         </li>
                         
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Productos y servicios
-                            </a>
+                            </Link>
                             <ul className="dropdown-menu bg-black">
-                                <li><a className="dropdown-item text-light" href="/">Casino en vivo</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Juegos</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Apuestas Deportivas</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Servidores escalables</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Sistemas de pago</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Asesoramiento</a></li>
-                                <li><a className="dropdown-item text-light" href="/">Marketing</a></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Casino en vivo</Link></li>
+                                <li><Link to={'/juegos'} className="dropdown-item text-light">Juegos</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Apuestas Deportivas</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Servidores escalables</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Sistemas de pago</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Asesoramiento</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Marketing</Link></li>
                             </ul>
                         </li>
 
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" aria-expanded="false">
                             Sistema de Agentes
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" aria-expanded="false">
                             Noticias y eventos
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" aria-expanded="false">
                             Contacto
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item dropdown">
-                            <a className="nav-link text-light" href="/" role="button" aria-expanded="false">
+                            <Link className="nav-link text-light" to={'/'} role="button" aria-expanded="false">
                             Soporte
-                            </a>
+                            </Link>
                         </li>
 
 

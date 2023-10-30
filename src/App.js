@@ -6,6 +6,7 @@ import Promociones from './Components/homeImage';
 import Informacion from './pages/information';
 import Footer from './Components/Footer';
 import Principal from './Components/Principal';
+import Juegos from './pagesNavbar/juegos';
 
 
 function App() {
@@ -17,11 +18,11 @@ function App() {
       <Routes>
         <Route
           path={"/"} 
-          element={
-              <>
-              <Promociones />
-            </>
-          }
+          element={<Promociones />}
+        />
+        <Route
+          path={'/juegos'}
+          element={<Juegos />}
         />
         <Route
           path={"/informacion"}
