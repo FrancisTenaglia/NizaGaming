@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import img from "./images/greentube.png"
+import img from "./images/greentube.png";
+import evolu from "./images/Evolution.png";
+import ezu from "./images/Ezugui.png";
+import prag from "./images/pragmatic.png";
 
 
 const Juegos = () => {
@@ -55,7 +58,7 @@ const Juegos = () => {
             </div>
 
             <div className="card mb-2" style={{width:"17rem"}} onClick={handleDisplay}>
-                <img src={img} className="card-img-top" alt="#" />
+                <img src={evolu} className="card-img-top" alt="#" />
                 
                 <div className="row" style={{display: displayContent ? "" : "none"}}>
                     <div className="card-body">
@@ -98,7 +101,7 @@ const Juegos = () => {
             </div>
 
             <div className="card mb-2" style={{width:"17rem"}} onClick={handleDisplay}>
-                <img src={img} className="card-img-top" alt="#" />
+                <img src={ezu} className="card-img-top" alt="#" />
                 
                 <div className="row" style={{display: displayContent ? "" : "none"}}>
                     <div className="card-body">
@@ -141,7 +144,7 @@ const Juegos = () => {
             </div>
 
             <div className="card mb-2" style={{width:"17rem"}} onClick={handleDisplay}>
-                <img src={img} className="card-img-top" alt="#" />
+                <img src={prag} className="card-img-top" alt="#" />
                 
                 <div className="row" style={{display: displayContent ? "" : "none"}}>
                     <div className="card-body">
