@@ -3,7 +3,7 @@ import imgMenu from "../images/menuu.png"
 const NavBar = () => {
     return(
         <div className="mb-2 fixed-top " style={{ backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)",marginLeft:"-12px", marginRight:"-12px", fontFamily:"Arimo", }}>
-            <nav className="navbar navbar-expand-lg" style={{ height:"60px", backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)"}}>
+            <nav className="navbar navbar-expand-lg" style={{ height:"50px", backdropFilter:"blur(20px)", backgroundColor:"rgba(0, 0, 0, 0.8)"}}>
             <div className="container">
                 <a className="navbar-brand text-white" style={{marginLeft:"10px", marginTop:"0px", fontWeight:"70px"}} href="/">NZ</a>
                     
