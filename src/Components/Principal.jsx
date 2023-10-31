@@ -1,4 +1,4 @@
-import fondo from "../images/img44.png"
+import fondo from "../images/candy.png"
 import { Link } from "react-router-dom";
 
 const Principal = () => {
@@ -15,7 +15,7 @@ const Principal = () => {
                 <Link to={'/informacion'} style={{textDecoration:"none"}}><p style={{color:"#1c66ac", fontFamily:"sans-serif", fontSize:"15px"}}>Acceder a información »  </p> </Link>
                 </p>
 
-                <img style={{transform:"scale(0.7)"}} src={fondo} alt="fondo"/>
+                <img style={{transform:"scale(0.9)"}} src={fondo} alt="fondo"/>
             </div>
         </div>
     );

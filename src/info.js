@@ -7,11 +7,11 @@ export const homes = [
       imagen: "celusFINAL.png"
     },
     {
-        colorFondo: "#ededed",
+        colorFondo: "white",
         textColor: "text-black",
         titulo: "Slots RNG",
         texto: "Integración. Personalización. Seguridad.",
-        imagen: "img3.jpg"
+        imagen: "slot.jpg"
     },
     {
         colorFondo: "black",

@@ -12,9 +12,11 @@ const Promociones = () => {
                             <p className={textColor} style={{fontFamily:"", fontSize:"18px", margin:"0"}}>{texto}</p>
                         </div>
                     </div>
-                    <div className="row col-md-6" style={{}}>
-                        <img style={{transform:"scale(0.9)"}} src={imagen} alt="fondo"/>
+                    <div className="row col-md-6">
+                        <img style={{transform:"scale(1)"}} src={imagen} alt="fondo"/>
                     </div>  
+
+                    <div className="row" style={{height:"100px"}}></div>
 
 
                 </div>    
