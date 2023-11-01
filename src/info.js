@@ -4,7 +4,7 @@ export const homes = [
       textColor: "text-white",
       titulo: " Apuestas Deportivas",
       texto: "Integración. Personalización.",
-      imagen: "celusFINAL.png"
+      imagen: "celusFINALL.png"
     },
     {
         colorFondo: "white",
