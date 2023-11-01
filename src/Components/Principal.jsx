@@ -1,4 +1,4 @@
-import fondo from "../images/img22.png"
+import fondo from "../images/img222.png"
 import { Link } from "react-router-dom";
 
 const Principal = () => {
@@ -14,8 +14,9 @@ const Principal = () => {
 
                 <Link to={'/informacion'} style={{textDecoration:"none"}}><p style={{color:"#1c66ac", fontFamily:"sans-serif", fontSize:"15px"}}>Acceder a información »  </p> </Link>
                 </p>
-
-                <img style={{transform:"scale(0.9)"}} src={fondo} alt="fondo"/>
+                <div className="float-center">
+                    <img className="img-fluid" style={{transform:"scale(0.87)"}} src={fondo} alt="fondo"/>
+                </div>
             </div>
         </div>
     );
