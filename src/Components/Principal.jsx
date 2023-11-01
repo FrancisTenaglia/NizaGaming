@@ -15,7 +15,7 @@ const Principal = () => {
                         </div>
                     </div>
                     <div className="row col-md-6 col-lg-2">
-                        <img src={fondo} alt="fondo" style={{}}/>
+                        <img src={fondo} alt="fondo" style={{transform:"scale(0.8)"}}/>
                     </div>  
 
                     <div className="row" style={{height:"100px"}}></div>
