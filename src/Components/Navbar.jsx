@@ -12,7 +12,7 @@ const NavBar = () => {
                 <img src={imgMenu} alt="#" style={{height:"28px", width:"28px"}} />
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" style={{background:"transparent"}}>
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style={{background:"transparent"}}>
                     <ul className="navbar-nav"  style={{paddingLeft:"10px",  backgroundColor:"black"}}>
                     
                         <li className="nav-item dropdown">
@@ -31,21 +31,13 @@ const NavBar = () => {
                             Productos y servicios
                             </Link>
                             <ul className="dropdown-menu bg-black">
-                                <li><Link className="dropdown-item text-light" to={'/'}>Casino en vivo</Link></li>
-                                <li><Link to={'/juegos'} className="dropdown-item text-light">Juegos</Link></li>
+                                <li><Link to={'/proveedores'} className="dropdown-item text-light">Proveedores</Link></li>
                                 <li><Link className="dropdown-item text-light" to={'/'}>Apuestas Deportivas</Link></li>
                                 <li><Link className="dropdown-item text-light" to={'/'}>Servidores escalables</Link></li>
                                 <li><Link className="dropdown-item text-light" to={'/'}>Sistemas de pago</Link></li>
-                                <li><Link className="dropdown-item text-light" to={'/'}>Asesoramiento</Link></li>
-                                <li><Link className="dropdown-item text-light" to={'/'}>Marketing</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'}>Asesoramiento legal</Link></li>
+                                <li><Link className="dropdown-item text-light" to={'/'} role="button" aria-expanded="false">Sistema de Agentes</Link></li>
                             </ul>
-                        </li>
-
-
-                        <li className="nav-item dropdown">
-                            <Link className="nav-link text-light" to={'/'} role="button" aria-expanded="false">
-                            Sistema de Agentes
-                            </Link>
                         </li>
 
                         <li className="nav-item dropdown">

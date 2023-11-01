@@ -6,7 +6,7 @@ import Promociones from './Components/homeImage';
 import Informacion from './pages/information';
 import Footer from './Components/Footer';
 import Principal from './Components/Principal';
-import Juegos from './pagesNavbar/juegos';
+import Proveedores from './pagesNavbar/proveedores';
 
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
           element={<Promociones />}
         />
         <Route
-          path={'/juegos'}
-          element={<Juegos />}
+          path={'/proveedores'}
+          element={<Proveedores />}
         />
         <Route
           path={"/informacion"}

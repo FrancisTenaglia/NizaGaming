@@ -16,7 +16,7 @@ const Promociones = () => {
                         <img src={imagen} alt="fondo"/>
                     </div>  
 
-                    <div className="row" style={{height:"100px"}}></div>
+                    <div className="row" style={{height:"150px"}}></div>
 
 
                 </div>    

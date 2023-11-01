@@ -5,7 +5,7 @@ import prag from "./images/pragmatic.png";
 import ezu from "./images/Ezugui.png";
 
 
-const Juegos = () => {
+const Proveedores = () => {
     // const [cardStates, setCardStates] = useState([
     //     { displayContent: false },
     //     { displayContent: false },
@@ -202,4 +202,4 @@ const Juegos = () => {
     );
 };
 
-export default Juegos;
+export default Proveedores;
