@@ -1,4 +1,4 @@
-import fondo from "../images/candy.png"
+import fondo from "../images/img22.png"
 import { Link } from "react-router-dom";
 
 const Principal = () => {

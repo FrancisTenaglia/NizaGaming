@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import img from "./images/greentube.png";
 import evolu from "./images/Evolution.png";
 import prag from "./images/pragmatic.png";
@@ -6,20 +6,20 @@ import ezu from "./images/Ezugui.png";
 
 
 const Juegos = () => {
-    const [cardStates, setCardStates] = useState([
-        { displayContent: false },
-        { displayContent: false },
-        { displayContent: false },
-        { displayContent: false }
+    // const [cardStates, setCardStates] = useState([
+    //     { displayContent: false },
+    //     { displayContent: false },
+    //     { displayContent: false },
+    //     { displayContent: false }
 
-        // Agrega más objetos si tienes más tarjetas
-      ]);
+    //     // Agrega más objetos si tienes más tarjetas
+    //   ]);
     
-      const handleDisplay = (index) => {
-        const newCardStates = [...cardStates];
-        newCardStates[index].displayContent = !newCardStates[index].displayContent;
-        setCardStates(newCardStates);
-      };
+    //   const handleDisplay = (index) => {
+    //     const newCardStates = [...cardStates];
+    //     newCardStates[index].displayContent = !newCardStates[index].displayContent;
+    //     setCardStates(newCardStates);
+    //   };
     return(
         <div className="row pt-2 d-flex justify-content-center">
             
@@ -28,11 +28,11 @@ const Juegos = () => {
                     <div className="card-body text-center">
                             <p className="card-text" style={{fontSize:"13px"}}>Como división interactiva de NOVOMATIC, Greentube realmente es la Casa de los Juegos. Durante más de 12 años, Greentube ha ofrecido entretenimiento de casino seguro a jugadores de todo el mundo..
                              </p>
-                             <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
+                             {/* <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
                                 Ver más
-                            </span>
+                            </span> */}
                     </div>
-                    <table className="table" style={{display: cardStates[0].displayContent ? "" : "none"}}>
+                    {/* <table className="table" style={{display: cardStates[0].displayContent ? "" : "none"}}>
                                 <tbody style={{fontSize:"10px"}}>
                                     <tr class="table-active">
                                     <td colspan="2" class="table-active" style={{backgroundColor:"#E2DEDE"}}>Número de juegos</td>
@@ -64,7 +64,7 @@ const Juegos = () => {
                                     <td style={{backgroundColor:"#E2DEDE"}}>Sí</td>
                                     </tr>
                                 </tbody>
-                    </table>
+                    </table> */}
                 </div>
 
                 <div className="card-deck mb-2" style={{width:"15rem"}}>
@@ -72,11 +72,11 @@ const Juegos = () => {
                     <div className="card-body text-center">
                             <p className="card-text" style={{fontSize:"13px"}}>Como división interactiva de NOVOMATIC, Greentube realmente es la Casa de los Juegos. Durante más de 12 años, Greentube ha ofrecido entretenimiento de casino seguro a jugadores de todo el mundo..
                              </p>
-                             <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
+                             {/* <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
                                 Ver más
-                            </span>
+                            </span> */}
                     </div>
-                    <table className="table" style={{display: cardStates[1].displayContent ? "" : "none"}}>
+                    {/* <table className="table" style={{display: cardStates[1].displayContent ? "" : "none"}}>
                                 <tbody style={{fontSize:"10px"}}>
                                     <tr class="table-active">
                                     <td colspan="2" class="table-active" style={{backgroundColor:"#E2DEDE"}}>Número de juegos</td>
@@ -108,7 +108,7 @@ const Juegos = () => {
                                     <td style={{backgroundColor:"#E2DEDE"}}>Sí</td>
                                     </tr>
                                 </tbody>
-                    </table>
+                    </table> */}
                 </div>
 
                 <div className="card-deck mb-2" style={{width:"15rem"}}>
@@ -116,11 +116,11 @@ const Juegos = () => {
                     <div className="card-body text-center">
                             <p className="card-text" style={{fontSize:"13px"}}>Como división interactiva de NOVOMATIC, Greentube realmente es la Casa de los Juegos. Durante más de 12 años, Greentube ha ofrecido entretenimiento de casino seguro a jugadores de todo el mundo..
                              </p>
-                             <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
+                             {/* <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
                                 Ver más
-                            </span>
+                            </span> */}
                     </div>
-                    <table className="table" style={{display: cardStates[2].displayContent ? "" : "none"}}>
+                    {/* <table className="table" style={{display: cardStates[2].displayContent ? "" : "none"}}>
                                 <tbody style={{fontSize:"10px"}}>
                                     <tr class="table-active">
                                     <td colspan="2" class="table-active" style={{backgroundColor:"#E2DEDE"}}>Número de juegos</td>
@@ -152,7 +152,7 @@ const Juegos = () => {
                                     <td style={{backgroundColor:"#E2DEDE"}}>Sí</td>
                                     </tr>
                                 </tbody>
-                    </table>
+                    </table> */}
                 </div> 
 
                 <div className="card-deck mb-2" style={{width:"15rem"}}>
@@ -160,11 +160,11 @@ const Juegos = () => {
                     <div className="card-body text-center">
                             <p className="card-text" style={{fontSize:"13px"}}>Como división interactiva de NOVOMATIC, Greentube realmente es la Casa de los Juegos. Durante más de 12 años, Greentube ha ofrecido entretenimiento de casino seguro a jugadores de todo el mundo..
                              </p>
-                             <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
+                             {/* <span style={{ color: "blue", textDecoration: "underline", cursor: "pointer" }}onClick={() => handleDisplay(0)}>
                                 Ver más
-                            </span>
+                            </span> */}
                     </div>
-                    <table className="table" style={{display: cardStates[3].displayContent ? "" : "none"}}>
+                    {/* <table className="table" style={{display: cardStates[3].displayContent ? "" : "none"}}>
                                 <tbody style={{fontSize:"10px"}}>
                                     <tr class="table-active">
                                     <td colspan="2" class="table-active" style={{backgroundColor:"#E2DEDE"}}>Número de juegos</td>
@@ -196,7 +196,7 @@ const Juegos = () => {
                                     <td style={{backgroundColor:"#E2DEDE"}}>Sí</td>
                                     </tr>
                                 </tbody>
-                    </table>
+                    </table> */}
                 </div> 
 </div>
     );
