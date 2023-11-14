@@ -1,10 +1,10 @@
-import fondo from "../images/Homeimg.png"
+import fondo from "../images/Homeimg3.png"
 import { Link } from "react-router-dom";
 
 const Principal = () => {
     
     return( 
-        <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px"}}>
+        <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px", backgroundColor:"#f5f5f7"}}>
                 <div className="row d-flex justify-content-center"  style={{backgroundColor: "secondary" }}>   
                     <div className="container" >
                         <div className="py-2 col text-center text-justify">
