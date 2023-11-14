@@ -12,7 +12,7 @@ const NavBar = () => {
                 <img src={imgMenu} alt="#" style={{height:"28px", width:"28px"}} />
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style={{background:"transparent"}}>
+                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" style={{background:"transparent"}}>
                     <ul className="navbar-nav"  style={{paddingLeft:"10px",  backgroundColor:"black"}}>
                     
                         <li className="nav-item dropdown">

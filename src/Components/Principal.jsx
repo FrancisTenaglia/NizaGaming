@@ -1,4 +1,4 @@
-import fondo from "../images/img22.png"
+import fondo from "../images/Homeimg.png"
 import { Link } from "react-router-dom";
 
 const Principal = () => {
@@ -6,7 +6,7 @@ const Principal = () => {
     return( 
         <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px"}}>
                 <div className="row d-flex justify-content-center"  style={{backgroundColor: "secondary" }}>   
-                    <div className="container" style={{marginBottom:"-40px"}}>
+                    <div className="container" >
                         <div className="py-2 col text-center text-justify">
                         <h1 style={{fontFamily:"Albert sans", fontSize:"37px", marginTop:"58px"}}>Solución Integral</h1>
                         <p  style={{fontFamily:"Albert sans", fontSize:"18px"}}>Compacta. Veloz. Temática personalizada. <br />
@@ -14,8 +14,8 @@ const Principal = () => {
                         </p>
                         </div>
                     </div>
-                    <div className="row col-md-6 col-lg-2 position-relative top-0%">
-                        <img src={fondo} alt="fondo" style={{transform:"scale(0.8)"}}/>
+                    <div className="row col-md-6 ">
+                        <img src={fondo} alt="fondo" />
                     </div>  
 
                     <div className="row" style={{height:"100px"}}></div>
