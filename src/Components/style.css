@@ -96,3 +96,15 @@
 		}
 	}
 }
+
+
+@media (min-width: 1200px) {
+	.mquery {
+		width: 22%;
+	}
+}
+@media (max-width: 500px) {
+	.mquery {
+		width: 90%;
+	}
+}

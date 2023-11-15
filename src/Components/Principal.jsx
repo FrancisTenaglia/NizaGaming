@@ -1,10 +1,12 @@
-import fondo from "../images/Homeimg3.png";
+import fondo from "../images/Homeimg7.png";
 import { Link } from "react-router-dom";
+import "../Components/style.css";
+
 
 const Principal = () => {
     
     return( 
-        <div className="row d-flex justify-content-center mquery" style={{marginRight:"-15px", marginLeft:"-15px", backgroundColor:"#f5f5f7"}}>
+        <div className="row d-flex justify-content-center " style={{marginLeft:"-15px", marginRight:"-15px", backgroundColor:"#f5f5f7"}}>
                 <div className="row d-flex justify-content-center"  style={{backgroundColor: "secondary" }}>   
                     <div className="container" >
                         <div className="py-2 col text-center text-justify">
@@ -14,7 +16,7 @@ const Principal = () => {
                         </p>
                         </div>
                     </div>
-                    <div className="row col-md-6" style={{}}>
+                    <div className="row col-md-6 mquery" style={{}}>
                         <img src={fondo} alt="fondo" style={{marginBottom:"40px", }} />
                     </div>  
                 </div>    
