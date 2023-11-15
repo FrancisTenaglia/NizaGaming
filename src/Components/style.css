@@ -105,6 +105,17 @@
 }
 @media (max-width: 500px) {
 	.mquery {
-		width: 90%;
+		width: 80%;
+	}
+}
+
+@media (max-width: 500px) {
+	.mqueryHomeImage {
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.mqueryHomeImage {
+		width: 30%;
 	}
 }

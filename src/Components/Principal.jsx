@@ -16,7 +16,7 @@ const Principal = () => {
                         </p>
                         </div>
                     </div>
-                    <div className="row col-md-6 mquery" style={{}}>
+                    <div className="row col-md-6 mquery">
                         <img src={fondo} alt="fondo" style={{marginBottom:"40px", }} />
                     </div>  
                 </div>    

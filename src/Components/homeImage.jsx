@@ -12,8 +12,8 @@ const Promociones = () => {
                             <p className={textColor} style={{fontFamily:"", fontSize:"18px", margin:"0"}}>{texto}</p>
                         </div>
                     </div>
-                    <div className="row col-md-6" >
-                        <img src={imagen} alt="fondo" style={{ marginBottom:"40px"}}/>
+                    <div className="row pt-4 col-md-6 mqueryHomeImage" >
+                        <img src={imagen} alt="fondo" style={{ marginBottom:"40px", transform:"scale(1.1)"}}/>
                     </div>  
 
                 </div>    
