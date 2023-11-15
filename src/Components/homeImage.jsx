@@ -13,7 +13,7 @@ const Promociones = () => {
                         </div>
                     </div>
                     <div className="row col-md-6 pt-4" >
-                        <img src={imagen} alt="fondo" style={{transform:"scale(0.8)", marginBottom:"40px"}}/>
+                        <img src={imagen} alt="fondo" style={{transform:"scale(1)", marginBottom:"40px"}}/>
                     </div>  
 
                 </div>    
