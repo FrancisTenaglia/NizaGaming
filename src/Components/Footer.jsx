@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer =() =>{
     return(
-        <div className="container">
-            <footer className="">
+        <div className="container" style={{position:"relative"}}>
                 
                 <div className="d-flex flex-column flex-sm-row justify-content-between pt-3" style={{textAlign:"justify"}}>
                     <p className="text-secondary" style={{fontFamily:"Arimo"}}>© Techvantage 2023. Todos los derechos reservados. Nuestra empresa se dedica a proporcionar soluciones de vanguardia para casinos en línea, garantizando experiencias de juego seguras y emocionantes. Con un enfoque en la innovación y la excelencia, nos esforzamos por brindar tecnología de punta para la industria del entretenimiento digital. Ponte en contacto con nosotros para descubrir cómo podemos ayudarte a crear la mejor plataforma de casino online para tu negocio.</p>
@@ -66,7 +65,6 @@ const Footer =() =>{
                 <div className="d-flex flex-column flex-sm-row justify-content-between py-1">
                     <p >Privacy Policy | Terms of Use | Sales | Legal | Site Map</p>
                 </div>
-            </footer>
         </div>
     );
 };
