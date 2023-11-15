@@ -1,24 +1,22 @@
-import fondo from "../images/Homeimg3.png"
+import fondo from "../images/Homeimg3.png";
 import { Link } from "react-router-dom";
 
 const Principal = () => {
     
     return( 
-        <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px", backgroundColor:"#f5f5f7"}}>
+        <div className="row d-flex justify-content-center mquery" style={{marginRight:"-15px", marginLeft:"-15px", backgroundColor:"#f5f5f7"}}>
                 <div className="row d-flex justify-content-center"  style={{backgroundColor: "secondary" }}>   
                     <div className="container" >
                         <div className="py-2 col text-center text-justify">
                         <h1 style={{fontFamily:"Albert sans", fontSize:"37px", marginTop:"58px"}}>Solución Integral</h1>
-                        <p  style={{fontFamily:"Albert sans", fontSize:"18px"}}>Compacta. Veloz. Temática personalizada. <br />
+                        <p  style={{fontFamily:"Albert sans", fontSize:"18px"}}>Compacta. Velóz. Temática personalizada. <br />
                          <Link to={'/informacion'} style={{textDecoration:"none"}}><p style={{color:"#1c66ac", fontFamily:"sans-serif", fontSize:"15px"}}>Acceder a información »  </p> </Link>
                         </p>
                         </div>
                     </div>
-                    <div className="row col-md-6 ">
-                        <img src={fondo} alt="fondo" />
+                    <div className="row col-md-6" style={{}}>
+                        <img src={fondo} alt="fondo" style={{marginBottom:"40px", }} />
                     </div>  
-
-                    <div className="row" style={{height:"100px"}}></div>
                 </div>    
         </div>
     );
