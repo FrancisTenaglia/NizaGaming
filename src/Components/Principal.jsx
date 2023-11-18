@@ -22,6 +22,8 @@ const Principal = () => {
                 </div>    
         </div>
     );
+
+    
 };
 
 export default Principal;
