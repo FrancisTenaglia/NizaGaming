@@ -5,7 +5,7 @@ const Promociones = () => {
         <div className="row  d-flex justify-content-center" style={{marginRight:"-15px", marginLeft:"-15px",}}>
             {homes.map(({colorFondo, textColor, titulo, texto, imagen } ) => (
 
-                <div className="row mt-2 pt-4 d-flex justify-content-center"  style={{backgroundColor: colorFondo,  height:"450px" }}>   
+                <div className="row mt-2 pt-4 d-flex justify-content-center"  style={{backgroundColor: colorFondo }}>   
                     <div className="container">
                         <div className="py-2 col text-center text-justify">
                         <h1 className={textColor} style={{fontFamily:"Albert sans", fontSize:"35px", }}>{titulo}</h1>
