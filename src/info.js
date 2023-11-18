@@ -18,7 +18,7 @@ export const homes = [
         textColor: "text-white",
         titulo: "Mesas en Vivo",
         texto: "Integración. Personalización. Seguridad.",
-        imagen: "img111.png"
+        imagen: "img11.png"
     },
     {
         colorFondo: "#ededed",
@@ -27,6 +27,4 @@ export const homes = [
         texto: "Integración. Personalización. Seguridad.",
         imagen: "imagess.jpg"
     }
-    
-
 ];
