@@ -100,12 +100,12 @@
 
 @media (min-width: 1200px) {
 	.mquery {
-		width: 22%;
+		width: 18%;
 	}
 }
 @media (max-width: 500px) {
 	.mquery {
-		width: 70%;
+		width: 60%;
 	}
 }
 

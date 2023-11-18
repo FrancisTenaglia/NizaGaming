@@ -4,7 +4,7 @@ export const homes = [
       textColor: "text-white",
       titulo: " Apuestas Deportivas",
       texto: "Integración. Personalización.",
-      imagen: "Sportimg.png"
+      imagen: "Sportimg7.png"
     },
     {
         colorFondo: "#f5f5f7",
@@ -18,7 +18,7 @@ export const homes = [
         textColor: "text-white",
         titulo: "Mesas en Vivo",
         texto: "Integración. Personalización. Seguridad.",
-        imagen: "img1.jpg"
+        imagen: "img11.png"
     },
     {
         colorFondo: "#ededed",

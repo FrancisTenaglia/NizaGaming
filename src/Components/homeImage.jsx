@@ -9,11 +9,11 @@ const Promociones = () => {
                     <div className="container">
                         <div className="py-2 col text-center text-justify">
                         <h1 className={textColor} style={{fontFamily:"Albert sans", fontSize:"35px", }}>{titulo}</h1>
-                            <p className={textColor} style={{fontFamily:"", fontSize:"18px", margin:"0"}}>{texto}</p>
+                            <p className={textColor} style={{fontFamily:"Albert sans", fontSize:"18px", margin:"0"}}>{texto}</p>
                         </div>
                     </div>
                     <div className="row pt-4 col-md-6 mqueryHomeImage" >
-                        <img src={imagen} alt="fondo" style={{ marginBottom:"40px", transform:"scale(1.1)"}}/>
+                        <img src={imagen} alt="fondo" style={{ marginBottom:"80px", transform:"scale(1.1)"}}/>
                     </div>  
 
                 </div>    
